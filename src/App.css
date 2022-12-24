@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +34,45 @@
     transform: rotate(360deg);
   }
 }
+
+/* Home Card */
+
+.home-card {
+  width: 350px;
+  height: 350px;
+  margin: 20px 30px;
+  overflow: hidden;
+  border: 6px solid black;
+}
+.home-img {
+  filter: blur(0.65px);
+}
+.home-card-heading {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  align-content: center;
+  align-self: flex-end;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+/* Home page */
+
+.home-container {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
